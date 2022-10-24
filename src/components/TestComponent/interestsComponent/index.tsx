@@ -4,10 +4,12 @@ export type InterestsComponent = {
     title: string;
 };
 
-const Test: React.FC<InterestsComponent> = ({ title }) => (
-    <S.Container>
-        <S.Text>{title}</S.Text>
-    </S.Container>
-);
+const Test: React.FC<InterestsComponent> = ({ title }) => {
+    return (
+        <S.Container>
+            <S.Text>{title}</S.Text>
+        </S.Container>
+    );
+};
 
 export default Test;

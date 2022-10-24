@@ -80,6 +80,10 @@ export const ButtonRemove = styled.button<ControleButton>`
 
     align-items: center;
     justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const TextPost = styled.p`
@@ -109,18 +113,30 @@ export const ReactionPost = styled.div`
 
 export const ButtonBird = styled.button`
     border: 0px solid black;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const ImageBird = styled.img``;
 
 export const ButtonHeart = styled.button`
     border: 0px solid black;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const ImageHeart = styled.img``;
 
 export const ButtonPalmas = styled.button`
     border: 0px solid black;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const ImagePalmas = styled.img``;

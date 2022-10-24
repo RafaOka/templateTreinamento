@@ -340,6 +340,9 @@ export const InputImg = styled.input<DecisionImg>`
 
 export const PublicacionImgButton = styled.button`
     border: 0cm;
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const PublicacionImg = styled.img``;
@@ -356,6 +359,10 @@ export const PublicacionBottom = styled.button`
 
     border: 1px solid #ffffff;
     border-radius: 8px;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const PublicationTextButton = styled.p`

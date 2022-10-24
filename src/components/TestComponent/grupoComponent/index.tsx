@@ -5,11 +5,13 @@ export type GroupComponent = {
     title: string;
 };
 
-const Test: React.FC<GroupComponent> = ({ img, title }) => (
-    <S.Container>
-        <S.Icon src={img} />
-        <S.Text>{title}</S.Text>
-    </S.Container>
-);
+const Test: React.FC<GroupComponent> = ({ img, title }) => {
+    return (
+        <S.Container>
+            <S.Icon src={img} />
+            <S.Text>{title}</S.Text>
+        </S.Container>
+    );
+};
 
 export default Test;

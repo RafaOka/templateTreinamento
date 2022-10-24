@@ -28,4 +28,6 @@ export const Text = styled.h2`
 export const Green = styled.img`
     width: 24px;
     height: 24px;
+
+    border: 0px;
 `;
